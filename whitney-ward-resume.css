@@ -1,0 +1,150 @@
+body {
+  font-size: small;
+  font-family:	Roboto, Poppins, Lato, sans-serif;
+}
+
+header.top {
+  background-color: #7A8964;
+  color: 	#000000;
+  padding:	10px;
+}
+
+header.top address {
+  color: 	#ffffff;
+  font-style: 	italic;
+  margin-top:	    7px;
+  display:	flex;
+  justify-content:  center;
+}
+
+header.top a {
+  color: 	#ffffff;
+  font-style: 	italic;
+  margin-top:	    7px;
+  display:	flex;
+  justify-content:  center;
+}
+
+header.top h2 {
+  color: 	#ffffff;
+  font-size:    100px;
+  margin:  	0px;
+  display:	flex;
+  justify-content:  center;
+}
+
+nav {
+  background-color: #efe5d0;
+  margin: 10px 10px 0 10px;
+}
+
+nav ul {
+  margin: 0px; 
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;}	
+
+nav ul li {
+  display: inline; 
+  padding: 5px 10px 5px 10px;}
+
+nav ul li a:link, nav ul li a:visited { 
+  color: #954b4b;  border-bottom: none; 	
+  font-weight: bold;
+}
+
+h1 {
+  font-size:	140%;
+  font-weight:  bold;
+  color:	#556b2f;
+}
+
+div#tableContainer {
+	display: table;
+	border-spacing: 5px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+aside {
+  display:	    table-cell;
+  background:       #C6C8C4;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align:    top;
+  horizontal-align: left;
+  line-height:	    1.5;
+  width:	    300px;
+}
+
+aside a.email {
+  color: #000000;
+}
+
+aside img {
+  width: 300px;
+  height: auto;
+}
+
+section#main {
+  display:	    table-cell;
+  background:       #FFFBF4;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align:    top;
+  width:	    700px;
+}
+
+section#main img {
+  width: 300px;
+  height: auto;
+}
+
+section#skills {
+  display:	    table-cell;
+  background:       #C6C8C4;
+  Width:	    150px;
+  font-size:        105%;
+  font-weight: 	    bold;
+  padding:          15px;
+  vertical-align:    top;
+  line-height:	    1.5;
+  margin: 10px 10 px 0px 10px;
+}
+
+.contact, .email {
+  color: #000000;
+}
+
+.title {
+  font-size:	120%;
+  font-weight:  bold;
+  color:	#808080;
+}
+
+a:link {
+  color:            #ffffff;
+  text-decoration:  none;
+  border-bottom:    none
+}
+
+a:visited {
+  color:            #ffffff;
+  text-decoration:  none;
+  border-bottom:    none;
+}
+
+.name {
+  font-weight: bold;
+  font-size:  120%;
+}
+
+.job {
+  font-style: italic;
+}
+
+footer img {
+ weight: 100px;
+ width:  100px;
+}
